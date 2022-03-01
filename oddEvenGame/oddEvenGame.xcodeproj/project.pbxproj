@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		261E6FEF27C7878F001F4985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261E6FEE27C7878F001F4985 /* AppDelegate.swift */; };
-		261E6FF127C7878F001F4985 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261E6FF027C7878F001F4985 /* SceneDelegate.swift */; };
-		261E6FF327C7878F001F4985 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261E6FF227C7878F001F4985 /* ViewController.swift */; };
-		261E6FF627C7878F001F4985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261E6FF427C7878F001F4985 /* Main.storyboard */; };
-		261E6FF827C7878F001F4985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 261E6FF727C7878F001F4985 /* Assets.xcassets */; };
-		261E6FFB27C7878F001F4985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261E6FF927C7878F001F4985 /* LaunchScreen.storyboard */; };
-		261E700627C7878F001F4985 /* OddEvenStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261E700527C7878F001F4985 /* OddEvenStudyTests.swift */; };
-		261E701027C7878F001F4985 /* OddEvenStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261E700F27C7878F001F4985 /* OddEvenStudyUITests.swift */; };
-		261E701227C7878F001F4985 /* OddEvenStudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261E701127C7878F001F4985 /* OddEvenStudyUITestsLaunchTests.swift */; };
+		268C9A9727CE18CF00929268 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268C9A9627CE18CF00929268 /* AppDelegate.swift */; };
+		268C9A9927CE18CF00929268 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268C9A9827CE18CF00929268 /* SceneDelegate.swift */; };
+		268C9A9B27CE18CF00929268 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268C9A9A27CE18CF00929268 /* ViewController.swift */; };
+		268C9A9E27CE18CF00929268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268C9A9C27CE18CF00929268 /* Main.storyboard */; };
+		268C9AA027CE18CF00929268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268C9A9F27CE18CF00929268 /* Assets.xcassets */; };
+		268C9AA327CE18CF00929268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268C9AA127CE18CF00929268 /* LaunchScreen.storyboard */; };
+		268C9AAE27CE18D000929268 /* oddEvenGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268C9AAD27CE18D000929268 /* oddEvenGameTests.swift */; };
+		268C9AB827CE18D000929268 /* oddEvenGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268C9AB727CE18D000929268 /* oddEvenGameUITests.swift */; };
+		268C9ABA27CE18D000929268 /* oddEvenGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268C9AB927CE18D000929268 /* oddEvenGameUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		261E700227C7878F001F4985 /* PBXContainerItemProxy */ = {
+		268C9AAA27CE18D000929268 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 261E6FE327C7878F001F4985 /* Project object */;
+			containerPortal = 268C9A8B27CE18CF00929268 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 261E6FEA27C7878F001F4985;
-			remoteInfo = OddEvenStudy;
+			remoteGlobalIDString = 268C9A9227CE18CF00929268;
+			remoteInfo = oddEvenGame;
 		};
-		261E700C27C7878F001F4985 /* PBXContainerItemProxy */ = {
+		268C9AB427CE18D000929268 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 261E6FE327C7878F001F4985 /* Project object */;
+			containerPortal = 268C9A8B27CE18CF00929268 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 261E6FEA27C7878F001F4985;
-			remoteInfo = OddEvenStudy;
+			remoteGlobalIDString = 268C9A9227CE18CF00929268;
+			remoteInfo = oddEvenGame;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		261E6FEB27C7878F001F4985 /* OddEvenStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OddEvenStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		261E6FEE27C7878F001F4985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		261E6FF027C7878F001F4985 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		261E6FF227C7878F001F4985 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		261E6FF527C7878F001F4985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		261E6FF727C7878F001F4985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		261E6FFA27C7878F001F4985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		261E6FFC27C7878F001F4985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		261E700127C7878F001F4985 /* OddEvenStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OddEvenStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		261E700527C7878F001F4985 /* OddEvenStudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddEvenStudyTests.swift; sourceTree = "<group>"; };
-		261E700B27C7878F001F4985 /* OddEvenStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OddEvenStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		261E700F27C7878F001F4985 /* OddEvenStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddEvenStudyUITests.swift; sourceTree = "<group>"; };
-		261E701127C7878F001F4985 /* OddEvenStudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddEvenStudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		268C9A9327CE18CF00929268 /* oddEvenGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oddEvenGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		268C9A9627CE18CF00929268 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		268C9A9827CE18CF00929268 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		268C9A9A27CE18CF00929268 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		268C9A9D27CE18CF00929268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		268C9A9F27CE18CF00929268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		268C9AA227CE18CF00929268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		268C9AA427CE18CF00929268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		268C9AA927CE18D000929268 /* oddEvenGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oddEvenGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		268C9AAD27CE18D000929268 /* oddEvenGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oddEvenGameTests.swift; sourceTree = "<group>"; };
+		268C9AB327CE18D000929268 /* oddEvenGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oddEvenGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		268C9AB727CE18D000929268 /* oddEvenGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oddEvenGameUITests.swift; sourceTree = "<group>"; };
+		268C9AB927CE18D000929268 /* oddEvenGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oddEvenGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		261E6FE827C7878F001F4985 /* Frameworks */ = {
+		268C9A9027CE18CF00929268 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		261E6FFE27C7878F001F4985 /* Frameworks */ = {
+		268C9AA627CE18D000929268 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		261E700827C7878F001F4985 /* Frameworks */ = {
+		268C9AB027CE18D000929268 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,137 +76,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		261E6FE227C7878F001F4985 = {
+		268C9A8A27CE18CF00929268 = {
 			isa = PBXGroup;
 			children = (
-				261E6FED27C7878F001F4985 /* OddEvenStudy */,
-				261E700427C7878F001F4985 /* OddEvenStudyTests */,
-				261E700E27C7878F001F4985 /* OddEvenStudyUITests */,
-				261E6FEC27C7878F001F4985 /* Products */,
+				268C9A9527CE18CF00929268 /* oddEvenGame */,
+				268C9AAC27CE18D000929268 /* oddEvenGameTests */,
+				268C9AB627CE18D000929268 /* oddEvenGameUITests */,
+				268C9A9427CE18CF00929268 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		261E6FEC27C7878F001F4985 /* Products */ = {
+		268C9A9427CE18CF00929268 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				261E6FEB27C7878F001F4985 /* OddEvenStudy.app */,
-				261E700127C7878F001F4985 /* OddEvenStudyTests.xctest */,
-				261E700B27C7878F001F4985 /* OddEvenStudyUITests.xctest */,
+				268C9A9327CE18CF00929268 /* oddEvenGame.app */,
+				268C9AA927CE18D000929268 /* oddEvenGameTests.xctest */,
+				268C9AB327CE18D000929268 /* oddEvenGameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		261E6FED27C7878F001F4985 /* OddEvenStudy */ = {
+		268C9A9527CE18CF00929268 /* oddEvenGame */ = {
 			isa = PBXGroup;
 			children = (
-				261E6FEE27C7878F001F4985 /* AppDelegate.swift */,
-				261E6FF027C7878F001F4985 /* SceneDelegate.swift */,
-				261E6FF227C7878F001F4985 /* ViewController.swift */,
-				261E6FF427C7878F001F4985 /* Main.storyboard */,
-				261E6FF727C7878F001F4985 /* Assets.xcassets */,
-				261E6FF927C7878F001F4985 /* LaunchScreen.storyboard */,
-				261E6FFC27C7878F001F4985 /* Info.plist */,
+				268C9A9627CE18CF00929268 /* AppDelegate.swift */,
+				268C9A9827CE18CF00929268 /* SceneDelegate.swift */,
+				268C9A9A27CE18CF00929268 /* ViewController.swift */,
+				268C9A9C27CE18CF00929268 /* Main.storyboard */,
+				268C9A9F27CE18CF00929268 /* Assets.xcassets */,
+				268C9AA127CE18CF00929268 /* LaunchScreen.storyboard */,
+				268C9AA427CE18CF00929268 /* Info.plist */,
 			);
-			path = OddEvenStudy;
+			path = oddEvenGame;
 			sourceTree = "<group>";
 		};
-		261E700427C7878F001F4985 /* OddEvenStudyTests */ = {
+		268C9AAC27CE18D000929268 /* oddEvenGameTests */ = {
 			isa = PBXGroup;
 			children = (
-				261E700527C7878F001F4985 /* OddEvenStudyTests.swift */,
+				268C9AAD27CE18D000929268 /* oddEvenGameTests.swift */,
 			);
-			path = OddEvenStudyTests;
+			path = oddEvenGameTests;
 			sourceTree = "<group>";
 		};
-		261E700E27C7878F001F4985 /* OddEvenStudyUITests */ = {
+		268C9AB627CE18D000929268 /* oddEvenGameUITests */ = {
 			isa = PBXGroup;
 			children = (
-				261E700F27C7878F001F4985 /* OddEvenStudyUITests.swift */,
-				261E701127C7878F001F4985 /* OddEvenStudyUITestsLaunchTests.swift */,
+				268C9AB727CE18D000929268 /* oddEvenGameUITests.swift */,
+				268C9AB927CE18D000929268 /* oddEvenGameUITestsLaunchTests.swift */,
 			);
-			path = OddEvenStudyUITests;
+			path = oddEvenGameUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		261E6FEA27C7878F001F4985 /* OddEvenStudy */ = {
+		268C9A9227CE18CF00929268 /* oddEvenGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 261E701527C7878F001F4985 /* Build configuration list for PBXNativeTarget "OddEvenStudy" */;
+			buildConfigurationList = 268C9ABD27CE18D000929268 /* Build configuration list for PBXNativeTarget "oddEvenGame" */;
 			buildPhases = (
-				261E6FE727C7878F001F4985 /* Sources */,
-				261E6FE827C7878F001F4985 /* Frameworks */,
-				261E6FE927C7878F001F4985 /* Resources */,
+				268C9A8F27CE18CF00929268 /* Sources */,
+				268C9A9027CE18CF00929268 /* Frameworks */,
+				268C9A9127CE18CF00929268 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = OddEvenStudy;
-			productName = OddEvenStudy;
-			productReference = 261E6FEB27C7878F001F4985 /* OddEvenStudy.app */;
+			name = oddEvenGame;
+			productName = oddEvenGame;
+			productReference = 268C9A9327CE18CF00929268 /* oddEvenGame.app */;
 			productType = "com.apple.product-type.application";
 		};
-		261E700027C7878F001F4985 /* OddEvenStudyTests */ = {
+		268C9AA827CE18D000929268 /* oddEvenGameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 261E701827C7878F001F4985 /* Build configuration list for PBXNativeTarget "OddEvenStudyTests" */;
+			buildConfigurationList = 268C9AC027CE18D000929268 /* Build configuration list for PBXNativeTarget "oddEvenGameTests" */;
 			buildPhases = (
-				261E6FFD27C7878F001F4985 /* Sources */,
-				261E6FFE27C7878F001F4985 /* Frameworks */,
-				261E6FFF27C7878F001F4985 /* Resources */,
+				268C9AA527CE18D000929268 /* Sources */,
+				268C9AA627CE18D000929268 /* Frameworks */,
+				268C9AA727CE18D000929268 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				261E700327C7878F001F4985 /* PBXTargetDependency */,
+				268C9AAB27CE18D000929268 /* PBXTargetDependency */,
 			);
-			name = OddEvenStudyTests;
-			productName = OddEvenStudyTests;
-			productReference = 261E700127C7878F001F4985 /* OddEvenStudyTests.xctest */;
+			name = oddEvenGameTests;
+			productName = oddEvenGameTests;
+			productReference = 268C9AA927CE18D000929268 /* oddEvenGameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		261E700A27C7878F001F4985 /* OddEvenStudyUITests */ = {
+		268C9AB227CE18D000929268 /* oddEvenGameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 261E701B27C7878F001F4985 /* Build configuration list for PBXNativeTarget "OddEvenStudyUITests" */;
+			buildConfigurationList = 268C9AC327CE18D000929268 /* Build configuration list for PBXNativeTarget "oddEvenGameUITests" */;
 			buildPhases = (
-				261E700727C7878F001F4985 /* Sources */,
-				261E700827C7878F001F4985 /* Frameworks */,
-				261E700927C7878F001F4985 /* Resources */,
+				268C9AAF27CE18D000929268 /* Sources */,
+				268C9AB027CE18D000929268 /* Frameworks */,
+				268C9AB127CE18D000929268 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				261E700D27C7878F001F4985 /* PBXTargetDependency */,
+				268C9AB527CE18D000929268 /* PBXTargetDependency */,
 			);
-			name = OddEvenStudyUITests;
-			productName = OddEvenStudyUITests;
-			productReference = 261E700B27C7878F001F4985 /* OddEvenStudyUITests.xctest */;
+			name = oddEvenGameUITests;
+			productName = oddEvenGameUITests;
+			productReference = 268C9AB327CE18D000929268 /* oddEvenGameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		261E6FE327C7878F001F4985 /* Project object */ = {
+		268C9A8B27CE18CF00929268 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					261E6FEA27C7878F001F4985 = {
+					268C9A9227CE18CF00929268 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					261E700027C7878F001F4985 = {
+					268C9AA827CE18D000929268 = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 261E6FEA27C7878F001F4985;
+						TestTargetID = 268C9A9227CE18CF00929268;
 					};
-					261E700A27C7878F001F4985 = {
+					268C9AB227CE18D000929268 = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 261E6FEA27C7878F001F4985;
+						TestTargetID = 268C9A9227CE18CF00929268;
 					};
 				};
 			};
-			buildConfigurationList = 261E6FE627C7878F001F4985 /* Build configuration list for PBXProject "OddEvenStudy" */;
+			buildConfigurationList = 268C9A8E27CE18CF00929268 /* Build configuration list for PBXProject "oddEvenGame" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,37 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 261E6FE227C7878F001F4985;
-			productRefGroup = 261E6FEC27C7878F001F4985 /* Products */;
+			mainGroup = 268C9A8A27CE18CF00929268;
+			productRefGroup = 268C9A9427CE18CF00929268 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				261E6FEA27C7878F001F4985 /* OddEvenStudy */,
-				261E700027C7878F001F4985 /* OddEvenStudyTests */,
-				261E700A27C7878F001F4985 /* OddEvenStudyUITests */,
+				268C9A9227CE18CF00929268 /* oddEvenGame */,
+				268C9AA827CE18D000929268 /* oddEvenGameTests */,
+				268C9AB227CE18D000929268 /* oddEvenGameUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		261E6FE927C7878F001F4985 /* Resources */ = {
+		268C9A9127CE18CF00929268 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				261E6FFB27C7878F001F4985 /* LaunchScreen.storyboard in Resources */,
-				261E6FF827C7878F001F4985 /* Assets.xcassets in Resources */,
-				261E6FF627C7878F001F4985 /* Main.storyboard in Resources */,
+				268C9AA327CE18CF00929268 /* LaunchScreen.storyboard in Resources */,
+				268C9AA027CE18CF00929268 /* Assets.xcassets in Resources */,
+				268C9A9E27CE18CF00929268 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		261E6FFF27C7878F001F4985 /* Resources */ = {
+		268C9AA727CE18D000929268 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		261E700927C7878F001F4985 /* Resources */ = {
+		268C9AB127CE18D000929268 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,61 +254,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		261E6FE727C7878F001F4985 /* Sources */ = {
+		268C9A8F27CE18CF00929268 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				261E6FF327C7878F001F4985 /* ViewController.swift in Sources */,
-				261E6FEF27C7878F001F4985 /* AppDelegate.swift in Sources */,
-				261E6FF127C7878F001F4985 /* SceneDelegate.swift in Sources */,
+				268C9A9B27CE18CF00929268 /* ViewController.swift in Sources */,
+				268C9A9727CE18CF00929268 /* AppDelegate.swift in Sources */,
+				268C9A9927CE18CF00929268 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		261E6FFD27C7878F001F4985 /* Sources */ = {
+		268C9AA527CE18D000929268 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				261E700627C7878F001F4985 /* OddEvenStudyTests.swift in Sources */,
+				268C9AAE27CE18D000929268 /* oddEvenGameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		261E700727C7878F001F4985 /* Sources */ = {
+		268C9AAF27CE18D000929268 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				261E701227C7878F001F4985 /* OddEvenStudyUITestsLaunchTests.swift in Sources */,
-				261E701027C7878F001F4985 /* OddEvenStudyUITests.swift in Sources */,
+				268C9ABA27CE18D000929268 /* oddEvenGameUITestsLaunchTests.swift in Sources */,
+				268C9AB827CE18D000929268 /* oddEvenGameUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		261E700327C7878F001F4985 /* PBXTargetDependency */ = {
+		268C9AAB27CE18D000929268 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 261E6FEA27C7878F001F4985 /* OddEvenStudy */;
-			targetProxy = 261E700227C7878F001F4985 /* PBXContainerItemProxy */;
+			target = 268C9A9227CE18CF00929268 /* oddEvenGame */;
+			targetProxy = 268C9AAA27CE18D000929268 /* PBXContainerItemProxy */;
 		};
-		261E700D27C7878F001F4985 /* PBXTargetDependency */ = {
+		268C9AB527CE18D000929268 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 261E6FEA27C7878F001F4985 /* OddEvenStudy */;
-			targetProxy = 261E700C27C7878F001F4985 /* PBXContainerItemProxy */;
+			target = 268C9A9227CE18CF00929268 /* oddEvenGame */;
+			targetProxy = 268C9AB427CE18D000929268 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		261E6FF427C7878F001F4985 /* Main.storyboard */ = {
+		268C9A9C27CE18CF00929268 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				261E6FF527C7878F001F4985 /* Base */,
+				268C9A9D27CE18CF00929268 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		261E6FF927C7878F001F4985 /* LaunchScreen.storyboard */ = {
+		268C9AA127CE18CF00929268 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				261E6FFA27C7878F001F4985 /* Base */,
+				268C9AA227CE18CF00929268 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		261E701327C7878F001F4985 /* Debug */ = {
+		268C9ABB27CE18D000929268 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +377,7 @@
 			};
 			name = Debug;
 		};
-		261E701427C7878F001F4985 /* Release */ = {
+		268C9ABC27CE18D000929268 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -432,7 +432,7 @@
 			};
 			name = Release;
 		};
-		261E701627C7878F001F4985 /* Debug */ = {
+		268C9ABE27CE18D000929268 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -441,7 +441,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R29JAW8U7W;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OddEvenStudy/Info.plist;
+				INFOPLIST_FILE = oddEvenGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -452,7 +452,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = study.OddEvenStudy;
+				PRODUCT_BUNDLE_IDENTIFIER = study.oddEvenGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -460,7 +460,7 @@
 			};
 			name = Debug;
 		};
-		261E701727C7878F001F4985 /* Release */ = {
+		268C9ABF27CE18D000929268 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -469,7 +469,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R29JAW8U7W;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OddEvenStudy/Info.plist;
+				INFOPLIST_FILE = oddEvenGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -480,7 +480,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = study.OddEvenStudy;
+				PRODUCT_BUNDLE_IDENTIFIER = study.oddEvenGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -488,7 +488,7 @@
 			};
 			name = Release;
 		};
-		261E701927C7878F001F4985 /* Debug */ = {
+		268C9AC127CE18D000929268 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -499,16 +499,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = study.OddEvenStudyTests;
+				PRODUCT_BUNDLE_IDENTIFIER = study.oddEvenGameTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OddEvenStudy.app/OddEvenStudy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oddEvenGame.app/oddEvenGame";
 			};
 			name = Debug;
 		};
-		261E701A27C7878F001F4985 /* Release */ = {
+		268C9AC227CE18D000929268 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -519,16 +519,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = study.OddEvenStudyTests;
+				PRODUCT_BUNDLE_IDENTIFIER = study.oddEvenGameTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OddEvenStudy.app/OddEvenStudy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oddEvenGame.app/oddEvenGame";
 			};
 			name = Release;
 		};
-		261E701C27C7878F001F4985 /* Debug */ = {
+		268C9AC427CE18D000929268 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -537,16 +537,16 @@
 				DEVELOPMENT_TEAM = R29JAW8U7W;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = study.OddEvenStudyUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = study.oddEvenGameUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = OddEvenStudy;
+				TEST_TARGET_NAME = oddEvenGame;
 			};
 			name = Debug;
 		};
-		261E701D27C7878F001F4985 /* Release */ = {
+		268C9AC527CE18D000929268 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -555,55 +555,55 @@
 				DEVELOPMENT_TEAM = R29JAW8U7W;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = study.OddEvenStudyUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = study.oddEvenGameUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = OddEvenStudy;
+				TEST_TARGET_NAME = oddEvenGame;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		261E6FE627C7878F001F4985 /* Build configuration list for PBXProject "OddEvenStudy" */ = {
+		268C9A8E27CE18CF00929268 /* Build configuration list for PBXProject "oddEvenGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				261E701327C7878F001F4985 /* Debug */,
-				261E701427C7878F001F4985 /* Release */,
+				268C9ABB27CE18D000929268 /* Debug */,
+				268C9ABC27CE18D000929268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		261E701527C7878F001F4985 /* Build configuration list for PBXNativeTarget "OddEvenStudy" */ = {
+		268C9ABD27CE18D000929268 /* Build configuration list for PBXNativeTarget "oddEvenGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				261E701627C7878F001F4985 /* Debug */,
-				261E701727C7878F001F4985 /* Release */,
+				268C9ABE27CE18D000929268 /* Debug */,
+				268C9ABF27CE18D000929268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		261E701827C7878F001F4985 /* Build configuration list for PBXNativeTarget "OddEvenStudyTests" */ = {
+		268C9AC027CE18D000929268 /* Build configuration list for PBXNativeTarget "oddEvenGameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				261E701927C7878F001F4985 /* Debug */,
-				261E701A27C7878F001F4985 /* Release */,
+				268C9AC127CE18D000929268 /* Debug */,
+				268C9AC227CE18D000929268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		261E701B27C7878F001F4985 /* Build configuration list for PBXNativeTarget "OddEvenStudyUITests" */ = {
+		268C9AC327CE18D000929268 /* Build configuration list for PBXNativeTarget "oddEvenGameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				261E701C27C7878F001F4985 /* Debug */,
-				261E701D27C7878F001F4985 /* Release */,
+				268C9AC427CE18D000929268 /* Debug */,
+				268C9AC527CE18D000929268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 261E6FE327C7878F001F4985 /* Project object */;
+	rootObject = 268C9A8B27CE18CF00929268 /* Project object */;
 }
