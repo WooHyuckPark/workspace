@@ -66,6 +66,20 @@
                                     </imageView>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cx3-Si-cFa">
+                                <rect key="frame" x="354" y="54" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="STU-Rm-4mF"/>
+                                    <constraint firstAttribute="height" constant="50" id="sSd-Wc-5K7"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="pencil" catalog="system" title="설정" buttonSize="large">
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="settinBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ppr-Tb-4d0"/>
+                                </connections>
+                            </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nWv-Do-XUF">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
@@ -88,11 +102,13 @@
                             <constraint firstItem="eK0-Pj-7aG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="0G8-vz-zyj"/>
                             <constraint firstItem="nWv-Do-XUF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="AXM-SJ-Pai"/>
                             <constraint firstItem="nWv-Do-XUF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="M5m-Lx-OlJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cx3-Si-cFa" secondAttribute="trailing" constant="10" id="RCL-JX-FLW"/>
                             <constraint firstItem="eK0-Pj-7aG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Vne-1M-zyd"/>
                             <constraint firstItem="Osy-7E-DXL" firstAttribute="top" secondItem="eK0-Pj-7aG" secondAttribute="bottom" id="aeh-PA-wpt"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Osy-7E-DXL" secondAttribute="bottom" id="bFe-N8-nu8"/>
                             <constraint firstItem="Osy-7E-DXL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gl4-FP-6Oq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eK0-Pj-7aG" secondAttribute="trailing" id="lbX-un-Z1E"/>
+                            <constraint firstItem="Cx3-Si-cFa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="ooD-QS-G6d"/>
                             <constraint firstItem="nWv-Do-XUF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="plw-yc-v9G"/>
                             <constraint firstItem="Osy-7E-DXL" firstAttribute="bottom" secondItem="nWv-Do-XUF" secondAttribute="bottom" id="smF-2E-H2e"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Osy-7E-DXL" secondAttribute="trailing" id="yjn-CP-cUl"/>
@@ -110,9 +126,66 @@
             </objects>
             <point key="canvasLocation" x="28.985507246376812" y="65.625"/>
         </scene>
+        <!--Setting View Controller-->
+        <scene sceneID="Lg7-WW-snB">
+            <objects>
+                <viewController storyboardIdentifier="SettingViewController" id="hru-YQ-lfc" customClass="SettingViewController" customModule="oddEvenGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Q5-kz-Jb6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="fJ9-Zk-usf">
+                                <rect key="frame" x="149.5" y="431" width="115.5" height="34"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="구슬 개수" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V63-e0-pga">
+                                        <rect key="frame" x="0.0" y="0.0" width="63.5" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ehM-kc-5YP">
+                                        <rect key="frame" x="83.5" y="0.0" width="32" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tmv-ms-7nY">
+                                <rect key="frame" x="0.0" y="812" width="414" height="50"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="bSB-RU-gHw"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="수정완료"/>
+                                <connections>
+                                    <action selector="completeBtnPressed:" destination="hru-YQ-lfc" eventType="touchUpInside" id="I21-U3-NNd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qtn-M5-Fgf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qtn-M5-Fgf" firstAttribute="bottom" secondItem="Tmv-ms-7nY" secondAttribute="bottom" id="11J-C6-2iG"/>
+                            <constraint firstItem="fJ9-Zk-usf" firstAttribute="centerX" secondItem="5Q5-kz-Jb6" secondAttribute="centerX" id="9Hy-mi-9mT"/>
+                            <constraint firstItem="fJ9-Zk-usf" firstAttribute="centerY" secondItem="5Q5-kz-Jb6" secondAttribute="centerY" id="9hD-ZB-WVf"/>
+                            <constraint firstItem="Tmv-ms-7nY" firstAttribute="leading" secondItem="qtn-M5-Fgf" secondAttribute="leading" id="Nt4-j1-gNA"/>
+                            <constraint firstItem="qtn-M5-Fgf" firstAttribute="trailing" secondItem="Tmv-ms-7nY" secondAttribute="trailing" id="biF-Pz-ELd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ballsCountTextField" destination="ehM-kc-5YP" id="gcc-Ws-Qix"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6ID-yX-Su4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="783" y="66"/>
+        </scene>
     </scenes>
     <resources>
         <image name="fistImage" width="1280" height="1255"/>
+        <image name="pencil" catalog="system" width="128" height="113"/>
         <image name="userImage" width="269" height="292"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

@@ -19,6 +19,7 @@
 		26913E2F27CF5C5200FC5528 /* intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 26913E2C27CF5C5200FC5528 /* intro.mp3 */; };
 		26913E3027CF5C5200FC5528 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 26913E2D27CF5C5200FC5528 /* click.mp3 */; };
 		26913E3127CF5C5200FC5528 /* gamestart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 26913E2E27CF5C5200FC5528 /* gamestart.mp3 */; };
+		26A6982A27D1F224002EEAA4 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A6982927D1F224002EEAA4 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		26913E2C27CF5C5200FC5528 /* intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = intro.mp3; path = ../../../../Udemy/mp3/intro.mp3; sourceTree = "<group>"; };
 		26913E2D27CF5C5200FC5528 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = click.mp3; path = ../../../../Udemy/mp3/click.mp3; sourceTree = "<group>"; };
 		26913E2E27CF5C5200FC5528 /* gamestart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = gamestart.mp3; path = ../../../../Udemy/mp3/gamestart.mp3; sourceTree = "<group>"; };
+		26A6982927D1F224002EEAA4 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				267DBFBD27CE5826003DD58E /* SceneDelegate.swift */,
 				267DBFBF27CE5826003DD58E /* ViewController.swift */,
 				267DBFC127CE5826003DD58E /* Main.storyboard */,
+				26A6982927D1F224002EEAA4 /* SettingViewController.swift */,
 				267DBFC427CE5827003DD58E /* Assets.xcassets */,
 				267DBFC627CE5827003DD58E /* LaunchScreen.storyboard */,
 				267DBFC927CE5827003DD58E /* Info.plist */,
@@ -281,6 +284,7 @@
 				267DBFC027CE5826003DD58E /* ViewController.swift in Sources */,
 				267DBFBC27CE5826003DD58E /* AppDelegate.swift in Sources */,
 				267DBFBE27CE5826003DD58E /* SceneDelegate.swift in Sources */,
+				26A6982A27D1F224002EEAA4 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
